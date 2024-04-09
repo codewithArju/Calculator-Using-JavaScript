@@ -5,7 +5,9 @@ Array.from(buttons).forEach((button) => {
         if (e.target.innerHTML == '=') {
             expression = eval(expression);
             document.querySelector('.input').value = expression;
-        } else if (e.target.innerHTML == 'C') {
+        }
+
+        else if (e.target.innerHTML == 'C') {
             expression = "";
             document.querySelector('.input').value = expression;
         }

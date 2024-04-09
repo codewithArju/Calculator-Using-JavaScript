@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: hsl(200, 60%, 45%);
+    background-color: #3fe845ee;
 }
 
 .input {
